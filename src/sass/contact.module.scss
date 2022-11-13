@@ -1,0 +1,22 @@
+.form {
+  form {
+    width: 60%;
+    margin: auto;
+    @media screen and (max-width: 600px) {
+      width: 90%;
+    }
+  }
+  textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    &::placeholder {
+      font-size: 20px;
+    }
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+}

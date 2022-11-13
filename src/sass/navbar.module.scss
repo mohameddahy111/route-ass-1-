@@ -1,0 +1,38 @@
+.Toolbar {
+  background-color: #203040;
+  padding: 20px 50px;
+  transition: all .4s;
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.4s;
+    &:hover {
+      color: #1abc9c;
+    }
+  }
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logoLink {
+      font-weight: 800;
+      font-size: 40px;
+    }
+    .linksList {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+          padding: 10px;
+          margin: 0px 5px;
+          border-radius: 5px;
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

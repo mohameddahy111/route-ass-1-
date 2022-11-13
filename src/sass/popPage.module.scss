@@ -1,0 +1,24 @@
+.popPage {
+  position: absolute;
+  z-index: 99;
+  display: none;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  width: 70%;
+  margin: auto;
+  box-shadow: 1px 1px 10px gray;
+  button {
+    background-color: #1abc9c;
+    &:hover {
+      background-color: #1abc9c;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}

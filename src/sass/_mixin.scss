@@ -1,0 +1,27 @@
+@mixin starLine($color) {
+  .starLine {
+    position: relative;
+    margin: 20px 0px;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 120px;
+      height: 5px;
+      background-color: $color;
+      top: 50%;
+      transform: translateY(-50%);
+      transform: translateX(10%);
+    }
+    &::before {
+      position: absolute;
+      content: '';
+      width: 120px;
+      height: 5px;
+      background-color: $color;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      transform: translateX(-40%);
+    }
+  }
+}

@@ -1,0 +1,36 @@
+
+@import '../sass/mixin';
+@import '../sass/title';
+
+.home {
+  padding-top: 80px;
+  background-color: #1abc9c;
+  width: 100%;
+  padding-bottom: 50px;
+  .containerHome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  img {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 20%;
+  }
+  h2 {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+  }
+  h5{
+    color: #fff;
+  }
+}
+.mainPort{
+  @include starLine(#203040)
+
+}
+  
